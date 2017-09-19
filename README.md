@@ -1,14 +1,16 @@
 # Save-And-Convert-Img-PHP
 Is a class to save remote images, and change the type of image.
 Download and convert at the same time a remote file, convert:
+<pre>
 PNG to JPG
 PNG to GIF
 GIF to JPG
 GIF to PNG
 JPG to GIF
 JPG to PNG
-<pre>
-//Example
+
+Example:
+
 $load= new SaveAndConvertImg();
 //path to save the image. do not put the last slash
 $load->patch = './img';
