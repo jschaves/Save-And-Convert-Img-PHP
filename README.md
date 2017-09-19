@@ -1,6 +1,6 @@
 # Save-And-Convert-Img-PHP
 Is a class to save remote images, and change the type of image.
-
+<pre>
 //Example
 $load= new SaveAndConvertImg();
 //path to save the image. do not put the last slash
@@ -12,3 +12,4 @@ $load->name = 'logo_google';
 //type of image to convert - jpg gif png
 $load->convert = 'jpg';
 echo $load->ReturnImage();
+</pre>
